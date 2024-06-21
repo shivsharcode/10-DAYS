@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        
+
+        
+        
+        
+        
+        <div id="heading" class="primary-nav-div">
+            <button id="primary-nav-div-sidebar-openBtn" onclick="openSidebar()" class="primary-nav-div-btn">☰</button>
+            <h1 id="brand-logo-heading" ><a href="#">GharParivar</a></h1>
+            <button id="login-btn" class="primary-nav-div-btn">Login</button>
+        </div>
+
+        <div class="sec-nav-div">
+            <nav class="secondary-navbar-class" id="secondary-navbar-id">
+
+
+                <div class="secondary-navbar-dd" id="secondary-navbar-dd-id">
+                    <ul>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Sell</button>
+                            <div class="dropdown-content nav-sell-dropdown">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Rent</button>
+                            <div class="dropdown-content nav-sell-dropdown">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Buy</button>
+                            <div class="dropdown-content nav-buy-dropdown">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Loan</button>
+                            <div class="dropdown-content nav-loan-dropdown">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Property
+                                Services</button>
+                            <div class="dropdown-content nav-property-services-dropdown">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="secondary-navbar-elements"><button class="secondary-navbar-ele-btn">Help</button>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <div id="sidebar" class="sidebar-class">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="#">Service-1</a>
+        <a href="#">Service-2</a>
+        <a href="#">Service-3</a>
+        <a href="#">Service-4</a>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

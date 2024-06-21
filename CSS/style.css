@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); /*Roboto Mono*/
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    /* background-image: url(./images/bg.png);
+    background-repeat: repeat; */
+    background-color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;  /*Center items horizontally*/
+    align-items: center;  /*Center items vertically*/
+    background-color: white;
+}
+
+#brand-logo-heading{
+    /* flex-grow: 1; */
+    text-align:center ;
+    font-family: "Playwrite ES", cursive;
+    background-color: white;
+    margin: 0 75vb;
+}
+
+
+#secondary-navbar-id{
+    /* background-color: whitesmoke; */
+    /* height: 3rem; */
+    background-color: #fcf4f4;
+    padding:  0;
+    box-shadow: 0 4px 2px -2px gray; /* Adding a shadow line below the navbar */
+
+}
+
+.secondary-navbar-class{
+    display: flex;
+    justify-content: center; /* Center the navbar horizontally */
+    align-items: center;
+}
+
+
+.secondary-navbar-dd ul{
+    list-style-type: none;  /*Remove the default list styles */
+    display: flex;  /* Align the list items in a row */
+    /* justify-content: space-between; Add spacing between items */
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+
+.secondary-navbar-ele-btn{
+
+    border: none;
+    background-color: #fcf4f4;
+
+    /* background-color: #fcf4f48a(3, 3, 3); */
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+    /* margin-right: 5rem; */
+    font-family: "Roboto Mono", monospace;
+    font-size:medium;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #333;
+}
+
+.secondary-navbar-ele-btn:hover{
+    filter:brightness(90%);
+}
+
+
+.dropdown-content{
+    display: none; /*Hide dropdown content by default */
+    position: absolute ; /*Position the dropdown content */
+    background-color: white; /* Background color for dropdown*/
+    min-width:15rem; /* Minimum width for dropdown */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow for dropdown */
+    z-index: 1; /* Ensure dropdown is above other content */
+
+}
+
+.dropdown-content a{
+    display: block;
+    transition: filter 0.2s ease;
+    padding: 1rem 0.5rem;
+    margin-left: 1rem;
+
+}
+
+.dropdown-content a:hover{
+    color: red;
+    filter: brightness(105%);
+}
+
+.secondary-navbar-elements:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+/* SIDEBAR */
+
+.sidebar-class{
+    /* height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s; */
+    
+    background-color: #111;
+    height: 100%;
+    width: 0;
+
+}
+
+.sidebar-class a{
+    padding: 8px 8px 8px 32px; 
+    transition: 0.3s; 
+    font-size: 25px;
+    color: #818181;
+}
+
+.sidebar-class a:hover{
+    color: white;
+}
+
+.sidebar-class .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/* PRIMARY NAV BUTTONS */
+.primary-nav-div-btn{
+    font: large;
+    cursor: pointer;
+    background-color: #111111bc;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem ;
+}
+
+#primary-nav-div-sidebar-openBtn{
+    margin-right: 1rem;    
+}
+
+#login-btn{
+    margin-left: 1rem;
+}
+
+.primary-nav-div-btn:hover{
+    filter: brightness(130%);
+}
