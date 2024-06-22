@@ -21,22 +21,27 @@ a{
     display: flex;
     justify-content: center;  /*Center items horizontally*/
     align-items: center;  /*Center items vertically*/
-    background-color: white;
+    /* background-color: #D8242B; */
+    background-color: #CE2029;
 }
 
 #brand-logo-heading{
     /* flex-grow: 1; */
     text-align:center ;
     font-family: "Playwrite ES", cursive;
-    background-color: white;
+    /* background-color: #7C0902; */
     margin: 0 75vb;
+}
+
+#brand-logo-heading a{
+    color: white;
 }
 
 
 #secondary-navbar-id{
     /* background-color: whitesmoke; */
     /* height: 3rem; */
-    background-color: #fcf4f4;
+    background-color: #FEFEFA;
     padding:  0;
     box-shadow: 0 4px 2px -2px gray; /* Adding a shadow line below the navbar */
 
@@ -64,7 +69,7 @@ a{
 .secondary-navbar-ele-btn{
 
     border: none;
-    background-color: #fcf4f4;
+    background-color: #FEFEFA;
 
     /* background-color: #fcf4f48a(3, 3, 3); */
     padding: 1rem 5rem;
@@ -131,7 +136,7 @@ a{
     overflow-x: hidden;
     transition: 0.5s; */
     
-    background-color: #111;
+    background-color: #444;
     position: fixed;
     height: 100%;
     width: 0;
@@ -148,7 +153,7 @@ a{
     padding: 8px 8px 8px 32px; 
     transition: 0.3s; 
     font-size: 25px;
-    color: #818181;
+    color: rgb(178, 190, 190);
     display: block;
     margin-bottom: 3rem;
 }
@@ -173,8 +178,9 @@ a{
 .primary-nav-div-btn{
     font: large;
     cursor: pointer;
-    background-color: #111111bc;
-    color: white;
+    /* background-color: #111111bc; */
+    background-color: #E6A817;
+    color: black;
     border: none;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem ;
