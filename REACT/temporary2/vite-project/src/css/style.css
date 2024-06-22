@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-pg{
+    height: 10vh;
+    background-color: black;
+    
+}

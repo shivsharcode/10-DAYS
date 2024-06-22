@@ -9,6 +9,7 @@ body{
     /* background-image: url(./images/bg.png);
     background-repeat: repeat; */
     background-color: whitesmoke;
+
 }
 
 a{
@@ -83,6 +84,8 @@ a{
 }
 
 
+/* DROPDOWN */
+
 .dropdown-content{
     display: none; /*Hide dropdown content by default */
     position: absolute ; /*Position the dropdown content */
@@ -91,6 +94,7 @@ a{
     box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow for dropdown */
     z-index: 1; /* Ensure dropdown is above other content */
 
+    border-radius: 0.3rem;
 }
 
 .dropdown-content a{
@@ -128,8 +132,15 @@ a{
     transition: 0.5s; */
     
     background-color: #111;
+    position: fixed;
     height: 100%;
     width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 7.5rem
 
 }
 
@@ -138,6 +149,8 @@ a{
     transition: 0.3s; 
     font-size: 25px;
     color: #818181;
+    display: block;
+    margin-bottom: 3rem;
 }
 
 .sidebar-class a:hover{
