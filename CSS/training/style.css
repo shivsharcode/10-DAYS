@@ -36,15 +36,16 @@ h1{
 }
 
 .searchbar{
-    height: 2rem;
+    
     background-color: #FEFDFD;
     margin: 10px;
-    width: 200vmin;
-    height: 15vh;
+    width: 125vmin;
+    height: 8vh;
     margin: auto;
     border-radius: 5rem;
 
-    border: 2px solid #A29EA4;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
@@ -53,7 +54,8 @@ h1{
 .searchbar-elem{
     /* margin: auto; */
     /* margin-top: 0.3rem; */
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
+    
     padding: 0.5rem;
     width: 40vmin;
 
@@ -61,16 +63,75 @@ h1{
     /* background-color: gray; */
 }
 
-#first-item{
-    width: 60vmin;
+#searchbar-id{
+    padding: 0 1rem;
 }
 
-/* #fourth-item{
+.first-item-sub-elem, .second-item-sub-elem{
+    border-right: 1px solid #ddd;
+}
+.second-item-sub-elem , .third-item-sub-elem{
+    display: flex;
     
-} */
+    
+}
+
+
+
+.searchbar-elem-btn{
+    border: 1px solid black;
+    width: 19vb;
+    
+    background-color: #FEFDFD;
+  
+    
+  color: #757575;
+  font-size:medium;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+
+
+
+#first-item{
+    width: 60vmin;
+    /* background-color: #A29EA4; */
+    padding-left: 0%;
+
+}
+
+.first-item-sub-elem{
+    display: flex;
+    align-items: center;
+    
+
+}
+ .searchbar-icons{
+    padding-top: 0.4rem;
+    margin-right: 0.5vb;
+    height: 2vmax;
+
+} 
+
+#searchbar-location-input{
+    height: 5vh;
+    width: 35vb;
+}
+
+#fourth-item{
+    display: flex;
+    padding:0% ;
+   padding: 0.4rem 0 0.3rem 0 ;
+   width: 10rem;
+   
+}
 
 .searchbar-searchBtn{
-    padding: 1rem;
+    margin-right: 0%;
+    padding: 0 1rem;
+    height: 6vh ;
     width: 10rem;
 
     background-color: #D8242B;
@@ -83,8 +144,25 @@ h1{
 
     cursor: pointer;
 
+    display: flex;
+    align-items: center;
+    
+
 }
 
+
+#search-icon-searchbar{
+    margin-left: 1vb;
+    margin-right: 1vb;
+    padding-top: 0%;
+    height: 1.5vmax;
+    
+}
+
+/* 
+#map-pin{
+    height: 2vmax;
+} */
 
 /* content */
 .content{
