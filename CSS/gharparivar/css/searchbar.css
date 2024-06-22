@@ -1,38 +1,12 @@
-*{
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
 
 
-
-html, body{
-    height: 100% ;
-
-}
-
-body{
-    /* display: flex; */
-    background-color: azure ;
-}
-
-#sample{
-    background-color: pink;
-    height: 100px;
-    width: 100px;
-    border: 3px solid black;
-}
-
-h1{
-    background-color: mediumturquoise;
-    height: 100px;
-    width: 200px;
-    overflow-wrap: break-word;
-    text-align: cent;
-}
 
 .searchbar-div{
-    margin: auto;
+    /* margin: auto; */
+    flex: 1;
     padding: 1rem;
-    background-color: white;
+    /* background-color: white; */
+
 }
 
 .searchbar{
@@ -67,8 +41,17 @@ h1{
     padding: 0 1rem;
 }
 
+#first-item{
+    width: 60vmin;
+    /* background-color: #A29EA4; */
+    padding-left: 0%;
+
+}
+
+
 .first-item-sub-elem, .second-item-sub-elem{
     border-right: 1px solid #ddd;
+    
 }
 .second-item-sub-elem , .third-item-sub-elem{
     display: flex;
@@ -90,23 +73,20 @@ h1{
   font-weight: 100;
   text-align: center;
 
-}
-
-
-
-
-#first-item{
-    width: 60vmin;
-    /* background-color: #A29EA4; */
-    padding-left: 0%;
+  cursor: pointer;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 
 }
+
+
+
+
+
 
 .first-item-sub-elem{
     display: flex;
     align-items: center;
     
-
 }
  .searchbar-icons{
     padding-top: 0.4rem;
@@ -116,8 +96,13 @@ h1{
 } 
 
 #searchbar-location-input{
+    border: none;
     height: 5vh;
     width: 35vb;
+    font-size:medium;
+  font-weight: 100;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  
 }
 
 #fourth-item{
@@ -138,6 +123,7 @@ h1{
     color: white;
     font-size: medium;
     font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 
     border: none;
     border-radius: 5rem;
@@ -146,8 +132,15 @@ h1{
 
     display: flex;
     align-items: center;
+
+    transition: 0.3s filter ease;
+
     
 
+}
+
+.searchbar-searchBtn:hover{
+    filter: brightness(110%);
 }
 
 
@@ -159,14 +152,3 @@ h1{
     
 }
 
-/* 
-#map-pin{
-    height: 2vmax;
-} */
-
-/* content */
-.content{
-    height: 100rem;
-    text-align: center;
-    padding-top: 15rem;
-}
