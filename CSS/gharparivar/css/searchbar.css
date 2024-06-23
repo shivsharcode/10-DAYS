@@ -95,6 +95,10 @@
 
 } 
 
+.searchbar .down-arrow{
+    cursor: pointer;
+}
+
 #searchbar-location-input{
     border: none;
     height: 5vh;
