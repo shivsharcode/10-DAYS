@@ -17,6 +17,12 @@ a{
     color: black;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 #heading{
     display: flex;
     justify-content: center;  /*Center items horizontally*/
