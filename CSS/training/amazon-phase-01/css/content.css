@@ -1,0 +1,40 @@
+
+
+/* CONTENT */
+
+.content-div{
+    
+    flex: 1;
+}
+
+
+.content-cards{
+    display: flex;
+    padding-top: 5rem;
+}
+
+
+.content-cards  .cards{
+    height: 6rem;
+    width: 6rem;
+    margin: auto;
+    border: 4px solid #5E574D;
+    
+}
+
+.content-cards #div1{
+    background-color: #C3DFE0 ;
+}
+
+.content-cards #div2{
+    background-color: #BCD979 ;
+}
+
+.content-cards #div3{
+    background-color: #7D6D61 ;
+}
+
+
+
+
+

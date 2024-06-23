@@ -1,0 +1,74 @@
+
+
+a{
+    text-decoration: none;
+}
+
+
+.navbar{
+
+    height: 4rem;
+    background-color: #222;
+
+    display: flex;
+    
+
+    /* border: 0.25rem solid white; */
+}
+
+.navbar-elem{
+    /* border: 1px solid red; */
+    margin: 0 4rem 0 0 ;
+    padding: 1rem 2rem;
+
+    margin: auto;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+
+   
+}
+
+.navbar-links{
+    color: #FEFEFA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+
+
+
+
+#homepage-link{
+    color: goldenrod;
+    font-weight: 700;
+}
+
+
+
+#searchbar-input-id{
+    height: 1.75rem;
+    width: 15rem;
+    border-radius: 0.25rem;
+    background-color: #FEFEFA;
+
+    font-size: 500;
+    padding: 0rem 1rem;
+}
+
+#search-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: goldenrod;
+    color: #FEFEFA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:0.8rem;
+    font-weight: bold;
+
+}
+
+#search-btn:hover{
+    filter: brightness(90%);
+}
+
+
