@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+/* "Mukta", sans-serif; */
+
+.properties-offered {
+    margin: 20vh 5vw;
+    /* border: 1px solid black ; */
+    padding: 2rem;
+}
+
+.first-lane,
+.second-lane {
+    display: flex;
+}
+
+.first-lane-elem,
+.second-lane-elem {
+    margin: auto;
+}
+
+.blank-lane {
+    height: 4rem;
+}
+
+.boxes {
+    position: relative;
+    height: 25vh;
+    width: 20vw;
+    background-color: grey;
+
+    border-radius: 1rem;
+    overflow: hidden;
+    display: inline-block;
+
+   cursor: pointer;
+
+}
+
+.boxes .properties-elem-text {
+    color: black;
+    background-color: #f1eeee;
+    /* background-color: #E6A817; */
+    /* background-color: #BEBFC5; */
+    width: 80%;
+    border-radius: 1rem;
+    padding-left: 4%;
+
+    font-family: "Mukta", sans-serif;
+    font-size: large;
+    font-weight: 800;
+    font-style: normal;
+    position: absolute;
+    top: 50%;
+    left: 6%;
+
+    z-index: 1;
+}
+
+.boxes .explore-us-text {
+    color: white;
+    font-family: "Mukta", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+
+    z-index: 1;
+}
+
+.boxes::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease, filter 0.5s ease, box-shadow 0.8s ease;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: grayscale(20%);
+
+    box-shadow: inset 1rem -2rem 20px rgba(0, 0, 0, 0.5),
+        0 0 10px rgba(0, 0, 0, 0);
+
+    
+    /*Initial drop shadow*/
+}
+
+.boxes:hover::before {
+    transform: scale(1.1);
+
+    filter: grayscale(0%);
+
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.26), 0 0 20px rgba(0, 0, 0, 0.2);
+    /* Enhanced drop shadow on hover */
+    
+}
+
+#box1::before {
+    background-image: url(../images/house-images/apartments.jpg);
+}
+
+#box2::before {
+    background-image: url(../images/house-images/2.jpg);
+}
+
+#box3::before {
+    background-image: url(../images/house-images/builder-floor.jpg);
+}
+
+#box4::before {
+    background-image: url(../images/house-images/plot.png);
+}
+
+#box5::before {
+    background-image: url(../images/house-images/pg.jpg);
+}
+
+#box6::before {
+    background-image: url(../images/house-images/premium.jpg);
+}
