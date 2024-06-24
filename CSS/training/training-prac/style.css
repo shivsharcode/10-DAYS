@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-
+    
 h1{
     text-align: center;
     margin: 1rem;
@@ -14,27 +14,34 @@ h1{
     margin : 1rem 5rem ;
     border: 1px solid black;
     
-    height: 200px;
+    height: 600px;
     display: flex;
     /* flex-direction: row; by default */
-    flex-direction: column-reverse;
+    flex-direction: row;
+  
+
 }
+
 
 .box{
     height: 100px;
     width: 100px;
     border : 2px solid black ;
     display: inline-block;
+     
 }
+
 
 #box1{
     background-color: tomato;
 }
 #box2{
     background-color: aqua;
+    /* height: 200px; */
 }
 #box3{
     background-color: gainsboro;
+    /* height: 50px; */
 }
 #box4{
     background-color: burlywood;
