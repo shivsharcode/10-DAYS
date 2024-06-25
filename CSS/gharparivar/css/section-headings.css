@@ -1,0 +1,30 @@
+
+.section-headings{
+    margin: 0vh 5vw;
+    margin-top: 10vh;
+    /* border: 1px solid black ; */
+    padding: 2rem 6rem;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.5rem;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.section-headings p {
+    display: inline-block;
+    position: relative;
+}
+
+.section-headings p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1rem; /* Adjust this value to move the underline up or down */
+    width: 2.5rem; /* Length of the underline */
+    height: 0.5rem; /* Thickness of the underline */
+
+    border-radius: 1rem;
+    background-color: #CE2029; /* Color of the underline */
+}
