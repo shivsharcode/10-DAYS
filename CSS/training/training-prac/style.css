@@ -4,23 +4,28 @@
     padding: 0;
 }
 
-    
+
 h1{
     text-align: center;
     margin: 1rem;
 }
 
 .container{
-    margin : 1rem 5rem ;
+    margin : 1rem 5rem ; 
     border: 1px solid black;
     
     height: 600px;
     display: flex;
-    /* flex-direction: row; by default */
-    flex-direction: row;
-  
+    
+    flex-direction: column;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center ;
+    
 
 }
+
 
 
 .box{
@@ -28,7 +33,7 @@ h1{
     width: 100px;
     border : 2px solid black ;
     display: inline-block;
-     
+   
 }
 
 
