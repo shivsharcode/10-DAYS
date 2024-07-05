@@ -1,4 +1,0 @@
-1. Comments - that part of code that aren't executed - these are usually messages for reference of the code actions
-2. Operators
-3. Conditional Statements
-4. 
