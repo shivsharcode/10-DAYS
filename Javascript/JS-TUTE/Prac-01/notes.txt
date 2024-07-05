@@ -1,0 +1,14 @@
+1. What is Javascript
+2. Console : F12 -> Console Btn -> clear() : clears the console scrn -> demo codeline : alert("Hello JS); -> should pop an alert in the browser
+3. Code Editor - rahne de 
+4. console.log("Message");
+5. Variables
+6. null, undefined
+7. Boolean 
+8. JS is Dynamically Typed
+9. Variable Rules
+10. let, const & var 
+11. Datatypes - Primitive(7) , Non-Primitive(objects)
+12. objects - collection of values  - she told mostly objects are like dictionaries
+
+
