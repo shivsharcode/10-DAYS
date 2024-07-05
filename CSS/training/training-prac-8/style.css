@@ -1,0 +1,52 @@
+body {
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+
+.first-div {
+    height: 10rem;
+    width: 10rem;
+    background-color: tomato;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+    /* animation: colorAnimate 2s ease-in-out 1s infinite ; */
+    /*     |animation name| animation-duration | animation-timing-function | animation-delay | animation-iteration-count */
+
+    animation: hovering 2s ease 1s infinite alternate,
+               colorAnimate 2s ease-in-out 1s infinite alternate;
+    ;
+}
+
+@keyframes colorAnimate {
+    from {
+        background-color: tomato;
+    }
+
+    to {
+        background-color: green;
+    }
+}
+
+@keyframes hovering {
+    from {
+        top: 50%;
+    }
+
+    to {
+        top: 60%;
+    }
+}
+

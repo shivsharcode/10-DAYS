@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+}
+
+.first-div{
+    height: 10rem;
+    width: 10rem;
+    background-color: tomato;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: animate 5s ease 5s 5 normal ;
+}
+
+@keyframes animate {
+    0%{
+        left: 10vw;
+        background-color: yellow;
+    }
+
+    50%{
+        left: 50vw;
+        background-color: green;
+    }
+
+    100%{
+        left: 10vw;
+        background-color: yellow;
+    }
+}
+
+

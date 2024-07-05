@@ -1,0 +1,33 @@
+
+
+.first-div{
+    height: 10rem;
+    width: 10rem;
+    background-color: cornflowerblue;
+}
+
+
+/* @media (max-width: 300px){
+    .first-div{
+        background-color: green;
+    }
+} */
+
+
+/* @media (min-width:300px) and (max-width:400px) {
+    .first-div{
+        background-color: pink;
+    }
+} */
+
+/* @media (min-width: 400px) and (max-width: 600px) {
+    .first-div{
+        background-color: red;
+    }
+} */
+
+/* @media (min-width: 600px) {
+    .first-div{
+        background-color: blue;
+    }
+} */

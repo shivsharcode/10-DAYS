@@ -1,0 +1,42 @@
+
+
+.first-div{
+    height: 10rem ;
+    width: 10rem;
+    background-color: yellowgreen;
+
+}
+
+/* @media(width < 600px ){  
+    .first-div{
+        background-color: red;
+    }
+} */
+
+@media (min-width : 700px){     /* jab tak 700 px se screen zyada hogi tab tak BLUE hoga */ 
+    .first-div{
+        background-color: blue;
+    }
+}
+
+@media (max-width : 400px) {    /* screen 400 se kam hogi tab tak bgcolor black hoga    */
+    .first-div{
+        background-color: black;
+    }
+    
+}
+
+
+
+.second-div{
+    height: 10rem;
+    width: 10rem ;
+    background-color: aqua;
+    margin-top: 3rem ;
+}
+
+@media ( min-width: 400px)and (max-width: 600px){
+    .second-div{
+        background-color: tomato;
+    }
+}
