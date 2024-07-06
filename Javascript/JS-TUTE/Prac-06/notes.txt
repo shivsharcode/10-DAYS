@@ -1,0 +1,22 @@
+1. Window Object
+The Window Object represent an open window in a browser. It is browser's object (not JavaScript's) and is automatically created by browser. 
+It is a global object with lots of properties and methods.
+
+
+
+2. DOM - Document Object Model 
+When a web page is loaded, the browser creates a DOM of the page.
+
+Actually jitne bhi html elements hote hai voh JS me load hokar ek Object ban jate hai and unke hum naam dete hai DOM(Document Object Model)
+
+
+
+3. console.dir()    : prints properties and methods of document or dom elements
+
+
+4. Properties
+    tagName : returns tag for element nodes
+    innerText : returns the text conten of the element of all its children
+    innerHTML : returns the plain text or HTML contents in the element
+    textContent : returns textual content even for hidden elements
+
