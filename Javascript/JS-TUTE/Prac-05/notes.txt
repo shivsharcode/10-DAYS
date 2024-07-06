@@ -1,0 +1,6 @@
+function
+arrow functions
+forEach
+
+
+// methods - methods are functions associated with objects or some datastructues
