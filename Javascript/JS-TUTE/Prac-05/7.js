@@ -5,7 +5,7 @@
 let arr = [1, 2, 3, 4] ;
 
 const output = arr.reduce( (accumulator, val)=>{
-    console.log(`accumulator = ${accumulator} , val = ${val}`) ;
+   // console.log(`accumulator = ${accumulator} , val = ${val}`) ;
     return accumulator + val ;
 } ) ;
 
