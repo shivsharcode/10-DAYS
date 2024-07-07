@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
 /* "Mukta", sans-serif; */
 
-
-
 .cities-dealed {
-
     font-family: "Mukta", sans-serif;
     display: flex;
     justify-content: center;
-    
+
     align-items: center;
 
     margin: 10vh;
@@ -41,14 +38,15 @@
     /* For Chrome, Safari, and Opera */
 }
 
-.card , .c-d-card{
+.card,
+.c-d-card {
     min-width: 190px;
     height: 230px;
 
     padding: 0.5rem;
     margin: 10px;
     background-color: white;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,14 +61,13 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .scroll-btn {
-    background-color: #CE2029;
+    background-color: #ce2029;
     color: white;
     border: none;
 
@@ -78,12 +75,11 @@
     cursor: pointer;
     font-size: 20px;
     margin: 0 10px;
-    
-  font-size: 2rem ;
-  font-weight : 500 ;
 
-  border-radius: 0.3rem;
-    
+    font-size: 2rem;
+    font-weight: 500;
+
+    border-radius: 0.5rem;
 }
 
 .scroll-btn:disabled {
@@ -91,13 +87,15 @@
     cursor: not-allowed;
 }
 
-
+.scroll-btn:hover {
+    filter: brightness(110%);
+}
 
 .c-d-card-upper,
 .c-d-card-lower {
     /*   border: 1px solid black; */
     /*     height: 50% ; */
-    width: 100%
+    width: 100%;
 }
 
 .c-d-card-upper {
@@ -113,10 +111,8 @@
 .c-d-card-upper img {
     height: 90%;
     width: 70%;
-    border-radius: 50%
+    border-radius: 50%;
 }
-
-
 
 .c-d-card-lower {
     height: 40%;
@@ -125,7 +121,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .c-d-card-lower .city-card-city-name {
     font-weight: 600;
