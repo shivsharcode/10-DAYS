@@ -1,0 +1,31 @@
+
+
+html, body{
+    height: 100%;
+}
+
+.parent{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+
+.theme-btn{
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+
+.theme-btn:hover{
+    filter: brightness(90%);
+}
+
+.theme-btn:active{
+    filter: brightness(100%);
+}
