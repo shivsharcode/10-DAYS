@@ -4,3 +4,9 @@ h1{
     text-align: center;
 }
 
+h1:hover{
+    transform: scale(2);
+    transition-duration: 2s;
+    object-fit: contain;
+}
+
