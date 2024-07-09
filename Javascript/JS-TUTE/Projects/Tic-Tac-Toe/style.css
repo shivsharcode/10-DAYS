@@ -116,3 +116,6 @@ body{
 .box.flicker{
     animation: flicker 0.3s ease ;
 }
+
+/* .box.flicker means that this property will only be applicable to those elements which has BOTH box && flicker classes simulateously */
+/* initially there's no such element but on clicking the eventListener in app.js gets activated and adds the classList 'flicker' to the boxes */

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header{
+    padding: 1rem 0rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vmin;
+
+    border: 3px solid black;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    flex-wrap: wrap;
+
+    width: 400px;
+    height: max-content;
+
+    border: 2px solid red;
+}
+
+/* .score-board{
+  
+} */
