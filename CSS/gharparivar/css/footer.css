@@ -1,28 +1,11 @@
 
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
 
-  display: flex;
-  flex-direction: column;
-}
 
-#content {
-  flex: 1;
-  padding: 1rem;
-  text-align: center;
-}
 
-footer {
-  background-color: #444;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-  position: relative;
-  width: 100%;
-}
+/* ///////////////////////////// */
+
+
+
 
 .footer-element {
   padding: 0.2rem;
@@ -32,4 +15,141 @@ footer {
   font-style: normal;
 }
 
+.back-to-top-btn {
+  background-color: #37475A;
+  color: #ffffff;
+  width: 100%;
+  padding: 1rem 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
 
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-top-btn:hover{
+  filter: brightness(120%);
+}
+
+.back-to-top-btn:active{
+  filter: brightness(100%);
+} 
+
+
+.footer-div-1{
+  height: 25rem;
+
+  
+  background-color: #232F3E;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 15rem;
+
+  color: white;
+  font-size: 1rem;
+  
+}
+
+.footer-div-1-cols{
+  width: 14rem;
+}
+
+
+.footer-div-1 ul{
+  display: inline-block;
+  margin-top: 3rem;
+  width: 10rem;
+}
+
+.footer-div-1 p{
+  margin-top: 0.475rem ;
+  margin-bottom: 0.875rem;
+  font-weight:700;
+  width: 14rem;
+}
+
+.footer-div-1 a{
+
+  display: block;
+  color: #dddddd;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+ 
+}
+.footer-div-1 a:hover{
+  text-decoration: underline;
+}
+
+/* DIV 2  */
+.footer-div-2{
+  background-color: #232F3E;
+  border-top: 0.3px solid rgba(113, 111, 111, 0.518);
+}
+
+.footer-div-2-upper , .footer-div-2-lower{
+  /* background-color: #232F3E; */
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 1rem
+
+}
+
+.footer-div-2-upper{
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.footer-div-2-lower a{
+  color: #dddddd;
+}
+.footer-div-2-lower a:hover{
+  filter: brightness(120%);
+}
+
+.footer-div-2-lower i{
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
+
+
+/* DIV3 */
+.footer-div-3 {
+  background-color: #131A22;
+  color: white;
+
+  padding: 1rem 0;
+
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-self: center; */
+  
+}
+
+.footer-div-3-upper{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.footer-div-3-upper a{
+  cursor: pointer;
+  color: #dddddd;
+  font-size: 0.75rem;
+  margin-right: 1rem;
+
+}
+
+.footer-div-3-lower{
+  display: flex;
+  justify-content: center;
+  color: #dddddd;
+  font-size: 0.75rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
