@@ -1,0 +1,11 @@
+PRAC-11
+
+API:
+    Application Programming Interface
+
+Fetch API
+    The Fetch API provides an interface for fetching (sending/receiving) resources.
+    It uses Request and Response objects.
+    The fetch() method is used to fetch a resource (data).
+
+    let promise = fetch(url, [options])
