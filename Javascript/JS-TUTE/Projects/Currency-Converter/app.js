@@ -21,7 +21,7 @@ for (let select of dropdowns){
         if(select.name === 'from' && currCode === 'USD'){
             newOption.selected = 'selected' ;
         }
-        else if(select.name === 'to' & currCode === 'INR'){
+        else if(select.name === 'to' &&  currCode === 'INR'){
             newOption.selected = 'selected' ;
         }
 
